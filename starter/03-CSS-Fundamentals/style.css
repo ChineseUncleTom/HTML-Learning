@@ -85,3 +85,40 @@ aside {
 body {
   background-color: oldlace;
 }
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(2) {
+  color: rgb(163, 137, 85);
+}
+
+/* article p:last-child {
+  color: rgb(163, 137, 85);
+} */
+
+/* Style links */
+a:link {
+  color: rgb(163, 137, 85);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(240, 201, 124);
+}
+
+a:hover {
+  color: rgb(92, 77, 48);
+  font-weight: bold;
+  text-decoration: underline dotted rgb(92, 77, 48);
+}
+
+a:active {
+  background-color: rgb(92, 77, 48);
+  color: rgb(255, 219, 140);
+}
